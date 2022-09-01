@@ -8,11 +8,22 @@ public class BoardVO {
 	private String email;
 	private String pass;
 	private String title;
+	private String content;
 	private int readcount;
 	private Timestamp writedate;
+	
+	//수정
 
 	public int getNum() {
 		return num;
+	}
+
+	public String getContent() {
+		return content;
+	}
+
+	public void setContent(String content) {
+		this.content = content;
 	}
 
 	public void setNum(int num) {
